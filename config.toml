@@ -1,0 +1,243 @@
+# Page settings
+
+baseURL = "https://seenureddy.in/"
+languageCode = "en"
+title = ""
+theme = "portfolio"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+    author = "Seenureddy"
+    description = "Resume - Resume/CV Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Sreenivasulu S"
+        tagline = "Technical Lead and Architect"
+        avatar = "avatar.jpg"
+
+    [params.contact]
+        enable = true
+        location = "Bangalore"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+91-9686494283"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "srinivasulur55.s@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.seenureddy.in"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python/GoLang/Node.js"
+        [[params.skills.list.items]]
+        details = "Django/Flask/django-rest-framework/ Braintree-payment"
+        [[params.skills.list.items]]
+        details = "JavaScript/Angular/React/Vue"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL/Oracle /Mongodb"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Bachelor in Electronics and Instrumentation"
+        university = "JNTU Anathapur University"
+        dates = "2008 - 2012"
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Telugu"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Travelling"
+        [[params.interests.list]]
+        name = "Movies"
+
+
+    [params.summary]
+        enable = true
+        text = "Passionate and entusiastic python full stack web developer and architect having experience in building innovative large-scale, high volume applications and distributed products with new ideas and technologies that can make a significant impact on the end user and the customer."
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Technical Lead and Architect"
+        dates = "2018 - Present"
+        company = "Wipro, Bangalore"
+        details = "Lead the GIS core team in Data analysis platform and Lead the NO2 core team in Networking Project. Member of the Address Management, NO2, PaaS, Cloud platform team responsible for creating the backend automation tools using Python, Go, Jenkins, Redhat Openshift, Docker, Kubernetes. Work with other teams to identify, plan and execute features clients needed onplatforms."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+        [[params.experience.list.items]]
+        details = "Etiam ultricies nisi vel augue."
+
+        [[params.experience.list]]
+        title = "Senior Software Developer"
+        dates = "2017 - 2018"
+        company = "Realtime Register (Resello), Bangalore"
+        details = "Worked on different cloud services like Slim-site, Acronis, Microsoft CSP, Azure Stack, SSL, Reseller Hosting and Email Plans, OX App Suite, Domain Selling, Ecwid and VPS and developed API backends for them and helping them integrate in Resello and Realtime System."
+        [[params.experience.list.items]]
+        details = "Implement REST API’s for B2B business model using django-restframework."
+        [[params.experience.list.items]]
+        details = "Worked on WHMCS modules."
+
+        [[params.experience.list]]
+        title = "Senior Software Developer"
+        dates = "2016 - 2017"
+        company = "Mphasis, Bangalore"
+        details = "Worked on different ETL tools for processing the data and design the process and build the API endpoints and automate the process."
+
+        [[params.experience.list]]
+        title = "Senior Software Developer"
+        dates = "2015 - 2016"
+        company = "D2C Consulting Services (Renewbuy.com), Gurgaon"
+        details = "Lead the team of Backend, IOS, Android apps in developing the Insurance platform. Build the CRM System and SaaS API endpoints for the 3rd party companies Integration. Integrated the other companies’ insurance API endpoints into Renew Buy platform. Worked on My Wheels (Consumer Based Application B2C) and Partner Portal (Renew Buy Partners B2B) application."
+
+        [[params.experience.list.items]]
+        details = "Worked on the services of the digital wallet (Glove Box). Digital wallet is having the services of 1-click renewal, policy reminder, service, instant quotes generations, managing of the vehicle information."
+        [[params.experience.list.items]]
+        details = "Worked on feature to keep all the documents (like Policy Document, RC, Pollution Check other licenses) at one place."
+        [[params.experience.list.items]]
+        details = "Worked on Partner Portal: https://partners.renewbuy.com/"
+
+        [[params.experience.list]]
+        title = "Software Developer"
+        dates = "2014 - 2015"
+        company = "Agiliq, Hyderabad"
+        details = "Worked as a python, django full stack developer on multiple client projects. Worked on integration of Braintree payment gateway into ecommercebased application."
+
+        [[params.experience.list]]
+        title = "Software Developer"
+        dates = "2012 - 2014"
+        company = "Packet Path LLC, Bangalore"
+        details = "Build the GUI tools for the embedded application using PyQt5, RaspberryPi. Worked on the Internal tools to automate the process for embedded applications."
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Pika"
+        meta = "Open Source"
+        tagline = "Added the enum type to pika library: https://github.com/pika/pika/pull/1260"
+
+        [[params.projects.list]]
+        title = "Network Operations 2nd Generation (NO2)"
+        meta = "Wipro Project"
+        tagline = "NO2 seeks to lower the barrier-of-entry to programming for network engineers by providing powerful functionality through easy-to-use SDKs to create applications while providing flexibility to allow development and hosting of applications outside of the cisco products to provide programmatic, CLI and UI administrative tool to network engineers."
+        [[params.projects.list.items]]
+        tagline = "Worked with Netmiko library to enable python automation scripts to interact with Network Devices."
+        [[params.projects.list.items]]
+        tagline = "Build the custom python script to interact with webexteamssdk library to send notifications in webexteams."
+        [[params.projects.list.items]]
+        tagline = "Created the custom bots using ciscosparkbot library and send notification to third party applications."
+
+        [[params.projects.list]]
+        title = "Cloud Platform Automation"
+        meta = "Wipro Project"
+        tagline = "Worked in a Cloud Platform Automation Team and written the automation tools in Container Platform for Cloud Native Applications."
+        [[params.projects.list.items]]
+        tagline = "Handled Project Provisioning (Creation, Deletion and Update), Route Automation (Create and Delete) Workflows and Certificate creation and renewal workflows in Openshift environment."
+        [[params.projects.list.items]]
+        tagline = "Leveraging microservice architecture to design different modules for Project Provision and Route Automation in Golang."
+        [[params.projects.list.items]]
+        tagline = "Written the GoLang library to handle the end-to-end integration of all the micro services using the orchestration tool - Kubernetes "
+
+        [[params.projects.list]]
+        title = "Cloud Marketplace Resellers - https://www.resello.com/ https://www.realtimeregister.com/"
+        meta = "Realtime Register (Resello) Project"
+        tagline = "Resello Cloud Marketplace offers everything Service Providers, Telco’s, and Enterprises IT companies need running successful cloud business. Cloud business automation platform includes brandable storefront, back office, support & billing system, and an easy-to-use customer control panel. Partners can also connect through our powerful APIor use our WHMCS module."
+
+        [[params.projects.list]]
+        title = "Insurance platform https://www.renewbuy.com/"
+        meta = "Renew Buy Project"
+        tagline = "Renew Buy is used for General/Motor (like health/car/bike) Insurance platform. It helps finding the lowest premiums and issues your policy Instantly."
+
+        [[params.projects.list]]
+        title = "Whiskey-Platform-Ecommerce https://whalerockindustries.com/"
+        meta = "Agiliq Project"
+        tagline = "This is an ecommerce-based application with integration of Braintree payment gateway where registered and non-register user can subscribe to different products for certain period of time, basing on the subscription will charge the users using the payment gateway. We will provide the different offers for different users basing the subscription. Ecommerce API is used in different website, Android, IOS app"
+
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Travelling, Movies"
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/seenureddy"
+        title = "seenureddy"
+        [[params.social.list]]
+        icon = "fab fa-stack-overflow"
+        url = "//stackoverflow.com/users/4177876/seenu-s"
+        title = "seenu-s"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/srinivasulureddy-s-84a82751"
+        title = "srinivasulureddy-s"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/S55nu"
+        title = "@S55nu"
+

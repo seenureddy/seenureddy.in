@@ -1,0 +1,3 @@
+[submodule "themes/portfolio"]
+	path = themes/portfolio
+	url = https://github.com/cowboysmall-tools/hugo-devresume-theme.git
