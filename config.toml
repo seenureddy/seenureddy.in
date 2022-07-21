@@ -106,10 +106,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.experience]
         enable = true
-
         [[params.experience.list]]
         title = "Technical Lead and Architect"
-        dates = "2018 - Present"
+        dates = "2022 - Present"
+        company = "Intel, Bangalore"
+        details = "Working on the Cloud Automation Platforms"
+    
+        [[params.experience.list]]
+        title = "Technical Lead and Architect"
+        dates = "2018 - 2022"
         company = "Wipro, Bangalore"
         details = "Lead the GIS core team in Data analysis platform and Lead the NO2 core team in Networking Project. Member of the Address Management, NO2, PaaS, Cloud platform team responsible for creating the backend automation tools using Python, Go, Jenkins, Redhat Openshift, Docker, Kubernetes. Work with other teams to identify, plan and execute features clients needed onplatforms."
         #[[params.experience.list.items]]
