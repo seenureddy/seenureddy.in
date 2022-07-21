@@ -110,6 +110,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Technical Lead and Architect"
         dates = "2022 - Present"
         company = "Intel, Bangalore"
+        details = "Working on the Cloud Automation Platforms"
     
         [[params.experience.list]]
         title = "Technical Lead and Architect"
